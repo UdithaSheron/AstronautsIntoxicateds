@@ -1,0 +1,117 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../Images/fQfTUKu.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 767px) {
+    /* Styles for mobile devices */
+    .custom-background {
+        background-size: 100% auto;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Styles for tablets */
+    .custom-background {
+        background-size: cover;
+    }
+}
+
+/* You can add more media queries for other screen sizes if needed */
+
+
+/*footer form Page Botterm */
+/*footer form Page Botterm */
+/*footer form Page Botterm */
+/*footer form Page Botterm */
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+    .footer-icons a {
+        margin: 0 10px;
+        color: #fff;
+        font-size: 30px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-color 0.3s ease;
+        text-decoration: none; /* Remove underline */
+    }
+
+        .footer-icons a:hover {
+            background-color: #555;
+        }
+
+.footer-badges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+    .footer-badges img {
+        height: 80px;
+        margin: 0 10px;
+    }
+
+    .footer-badges .badge1 {
+        align-self: flex-end;
+    }
+
+    .footer-badges .badge2 {
+        align-self: flex-start;
+    }
+
+    .footer-badges .badge3 {
+        align-self: center;
+    }
+/*End Footer form Page Botterm */
+/*End Footer form Page Botterm */
+/*End Footer form Page Botterm */
+/*End Footer form Page Botterm */
+
+/* Default styles */
+
+/* Styles for mobile devices */
+@media only screen and (max-width: 600px) {
+    /* Update styles for smaller screens */
+    .h1h {
+        font-size: 24px;
+    }
+
+    .h5h {
+        font-size: 14px;
+    }
+
+    /* Adjust the layout of the news card */
+    .news-card {
+        flex-direction: column;
+    }
+
+    /* Update styles for the three cards */
+    .custom-card-left,
+    .custom-card-center,
+    .custom-card-right {
+        width: 100%;
+    }
+}
